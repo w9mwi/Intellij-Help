@@ -1,0 +1,63 @@
+HOW TO CREATE AND RUN SCALA PROGRAM IN INTELLIJ
+===============================================
+
+In this example we'll create a Scala program that
+prints "Hello World" to the screen.
+
+1) Launch Intellij
+
+2) Press "New Project" button if that's visible on a dialog window,
+   or select from the menu:  File / New / Project
+
+3) On the dialog window that appears, select "Java" in the left column.
+   (Do NOT select "Scala" in the left column!)
+
+   On the left side of the dialog window:
+      * Project SDK: Select a Java JDK from the dropdown.
+      * Check the "Scala" checkbox.
+      * Use library: Select a Scala SDK to use.
+
+   Press the "Next" button.
+
+4) On the new dialog window that appears enter, for example:
+
+   Project name:      Demo
+   Project location:  ~/IdeaProjects/Scala
+
+   Press the "Finish" button.
+
+5) Under the Scala project just created (named "Demo" in this example),
+   right-click on the "src" folder.
+
+   On the pop-up menu that appears, select:  Create New Scala Class
+   On the pop-up dialog window that appears...
+
+      * Select the type of class, object, or trait you want.
+        In this example:  Object
+      * Type the name of that class, object, or trait.
+        In this example: "Demo"
+      * Press the Enter key.
+
+6) Now enter Scala code on the screen.  In this example:
+
+   object Demo
+   {
+      def main(args: Array[String])
+      {
+         println("Hello World!") 
+      }
+   }
+
+7) To run the program, on the left side of the screen,
+   right-click on the folder:  Scala / src / Demo
+
+   From the drop-down menu select:  Run 'Demo'
+   
+   The text "Hello World!" should print in the bottom window.
+
+   AFTER this step is done, you can now run this program by
+   pressing the green arrow icon in the upper-right screen.
+
+THE END.
+
+====================================================================================
