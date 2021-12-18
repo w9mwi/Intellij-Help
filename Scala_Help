@@ -4,13 +4,31 @@ HOW TO CREATE AND RUN SCALA PROGRAM IN INTELLIJ
 In this example we'll create a Scala program that
 prints "Hello World" to the screen.
 
-1) Launch Intellij
+1) Download a Java JDK that works with the Scala
+   version you will be using.  In this example
+   the Java JDK is installed in this location:
 
-2) Press "New Project" button if that's visible on a dialog window,
-   or select from the menu:  File / New / Project
+   /home/tjb/Tom/software_installs/jdk-11.0.13
 
-3) On the dialog window that appears, select "Java" in the LEFT column.
-   (Do NOT select "Scala" in the LEFT column!)
+2) Open up your .bashrc file in a text editor, and enter
+   this text at the bottom of the file:
+
+   export JAVA_HOME=/home/tjb/Tom/software_installs/jdk-11.0.13
+   export PATH=$JAVA_HOME/bin:$PATH
+
+3) Launch Intellij to select the Scala SDK Plugin that will
+   be used.  From the menu, select:  File / Settings
+
+   In the dialog window that appers, select "Plugins"
+   in the LEFT column.  Then select "Marketplace" at
+   top of the dialog window.  Find the Scala plugin
+   to use and install it.
+
+4) Press "New Project" button if that's visible on a dialog window.
+   Or, select from the menu:  File / New / Project
+
+5) On the dialog window that appears, select "Java" in the LEFT column.
+   (Do NOT select "Scala" in the LEFT column!!!)
 
    On the RIGHT side of the dialog window:
       * Project SDK: Select a Java JDK from the dropdown.
@@ -19,15 +37,15 @@ prints "Hello World" to the screen.
 
    Press the "Next" button.
 
-4) On the new dialog window that appears enter, for example:
+6) On the new dialog window that appears enter, for example:
 
    Project name:      Demo
    Project location:  ~/IdeaProjects/Scala/Demo
 
    Press the "Finish" button.
 
-5) Under the Scala project just created (named "Demo" in this example),
-   right-click on the "src" folder located below the "Demo" folder.
+7) Under the Scala project just created (named "Demo" in this example),
+   right-click on the "src" folder located under the "Demo" folder.
 
    On the pop-up menu that appears, select:  New / Scala Class
    On the pop-up dialog window that appears...
@@ -38,7 +56,7 @@ prints "Hello World" to the screen.
         In this example: Demo
       * Press the Enter key.
 
-6) Now enter Scala code on the screen.  In this example:
+8) Now enter Scala code on the screen.  In this example:
 
    object Demo
    {
@@ -48,12 +66,13 @@ prints "Hello World" to the screen.
       }
    }
 
-7) To run the program, on the left side of the screen,
+9) To run the program, on the left side of the screen,
    right-click on the folder:  Demo / src / Demo
 
    From the drop-down menu select:  Run 'Demo'
    
-   The text "Hello World!" should print in the bottom window.
+   The program should run and print the text "Hello World!"
+   in the bottom window.
 
    AFTER this step is done, you can now run this program by
    pressing the green arrow icon in the upper-right screen.
