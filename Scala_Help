@@ -9,10 +9,10 @@ prints "Hello World" to the screen.
 2) Press "New Project" button if that's visible on a dialog window,
    or select from the menu:  File / New / Project
 
-3) On the dialog window that appears, select "Java" in the left column.
-   (Do NOT select "Scala" in the left column!)
+3) On the dialog window that appears, select "Java" in the LEFT column.
+   (Do NOT select "Scala" in the LEFT column!)
 
-   On the left side of the dialog window:
+   On the RIGHT side of the dialog window:
       * Project SDK: Select a Java JDK from the dropdown.
       * Check the "Scala" checkbox.
       * Use library: Select a Scala SDK to use.
@@ -22,20 +22,20 @@ prints "Hello World" to the screen.
 4) On the new dialog window that appears enter, for example:
 
    Project name:      Demo
-   Project location:  ~/IdeaProjects/Scala
+   Project location:  ~/IdeaProjects/Scala/Demo
 
    Press the "Finish" button.
 
 5) Under the Scala project just created (named "Demo" in this example),
-   right-click on the "src" folder.
+   right-click on the "src" folder located below the "Demo" folder.
 
-   On the pop-up menu that appears, select:  Create New Scala Class
+   On the pop-up menu that appears, select:  New / Scala Class
    On the pop-up dialog window that appears...
 
       * Select the type of class, object, or trait you want.
         In this example:  Object
       * Type the name of that class, object, or trait.
-        In this example: "Demo"
+        In this example: Demo
       * Press the Enter key.
 
 6) Now enter Scala code on the screen.  In this example:
@@ -49,7 +49,7 @@ prints "Hello World" to the screen.
    }
 
 7) To run the program, on the left side of the screen,
-   right-click on the folder:  Scala / src / Demo
+   right-click on the folder:  Demo / src / Demo
 
    From the drop-down menu select:  Run 'Demo'
    
