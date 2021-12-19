@@ -19,7 +19,7 @@ prints "Hello World" to the screen.
 3) Launch Intellij to select the Scala SDK Plugin that will
    be used.  From the menu, select:  File / Settings
 
-   In the dialog window that appers, select "Plugins"
+   In the dialog window that appears, select "Plugins"
    in the LEFT column.  Then select "Marketplace" at
    top of the dialog window.  Find the Scala plugin
    to use and install it.
