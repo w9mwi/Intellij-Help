@@ -1,8 +1,10 @@
-HOW TO CREATE AND RUN SCALA PROGRAM IN INTELLIJ
-===============================================
+HOW TO SETUP INTELLIJ TO CREATE SCALA PROGRAMS
+==============================================
 
-In this example we'll create a Scala program that
-prints "Hello World" to the screen.
+This example shows how to setup Intellij so you can
+create and run Scala programs.  Once Intellij is
+setup properly, a Scala "Hello World" program is
+run to confirm it's working.
 
 1) Download a Java JDK that works with the Scala
    version you will be using.  In this example
